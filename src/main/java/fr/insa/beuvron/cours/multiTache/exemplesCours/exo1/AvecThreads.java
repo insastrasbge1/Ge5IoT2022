@@ -17,7 +17,7 @@
     along with CoursBeuvron.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package fr.insa.beuvron.cours.ge5iot2022.exo1;
+package fr.insa.beuvron.cours.multiTache.exemplesCours.exo1;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
