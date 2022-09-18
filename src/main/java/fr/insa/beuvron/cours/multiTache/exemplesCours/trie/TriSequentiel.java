@@ -25,7 +25,7 @@ package fr.insa.beuvron.cours.multiTache.exemplesCours.trie;
 public class TriSequentiel {
 
     /** todoDoc. */
-    public static int SIZE = 100000000;
+    public static int SIZE = 10000;
 
     /** todoDoc. */
     public static int BMAX = 5000;
@@ -139,7 +139,7 @@ public class TriSequentiel {
      * @param args
      */
     public static void main(String[] args) {
-        test(10000000,TriSequentiel.BMAX);
+        test(TriSequentiel.SIZE,TriSequentiel.BMAX);
     }
 
 }

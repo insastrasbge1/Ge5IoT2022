@@ -151,7 +151,7 @@ public class TriParalleleLambda {
      * @param args
      */
     public static void main(String[] args) {
-        test(1000, TriSequentiel.BMAX);
+        test(TriSequentiel.SIZE, TriSequentiel.BMAX);
     }
 
 }

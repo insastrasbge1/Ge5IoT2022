@@ -130,7 +130,7 @@ public class TriParallele extends Thread {
      * @param args
      */
     public static void main(String[] args) {
-        test(100000,TriSequentiel.BMAX);
+        test(TriSequentiel.SIZE,TriSequentiel.BMAX);
     }
 
 }

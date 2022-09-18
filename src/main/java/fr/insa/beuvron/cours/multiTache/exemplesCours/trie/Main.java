@@ -29,11 +29,11 @@ public class Main {
         System.out.println("------------- sequentiel");
         TriSequentiel.test(TriSequentiel.SIZE,TriSequentiel.BMAX);
         System.out.println("------------- recursif complet");
-        System.out.println("trop long --> pas fait");
-//        TriParallele.test(TriSequentiel.SIZE,TriSequentiel.BMAX);
+//        System.out.println("trop long --> pas fait");
+        TriParallele.test(TriSequentiel.SIZE,TriSequentiel.BMAX);
         System.out.println("------------- recursif partiel");
-        System.out.println("trop long --> pas fait");
-//        TriSemiParallele.test(TriSequentiel.SIZE,TriSequentiel.BMAX);
+//        System.out.println("trop long --> pas fait");
+        TriSemiParallele.test(TriSequentiel.SIZE,TriSequentiel.BMAX);
         System.out.println("------------- decoupe par nbr coeur");
         TriDecoupeParNbrCoeurs.test(TriSequentiel.SIZE,TriSequentiel.BMAX);
     }
